@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
+import PropTypes from 'prop-types';
 
 import utils from '../utils';
 import context from './../context';
@@ -80,7 +81,7 @@ class DefaultUserProfileForm extends React.Component {
 
 export default class UserProfileForm extends React.Component {
   static contextTypes = {
-    user: React.PropTypes.object
+    user: PropTypes.object
   };
 
   state = {

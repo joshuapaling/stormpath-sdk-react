@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
-
+import PropTypes from 'prop-types';
 import utils from '../utils';
 import context from './../context';
 
@@ -171,7 +171,7 @@ class DefaultRegistrationForm extends React.Component {
 
 export default class RegistrationForm extends React.Component {
   static contextTypes = {
-    router: React.PropTypes.object.isRequired
+    router: PropTypes.object.isRequired
   };
 
   state = {
