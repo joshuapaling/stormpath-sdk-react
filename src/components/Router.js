@@ -1,6 +1,6 @@
 import React from 'react';
 import { Router as ReactRouter } from 'react-router';
-
+import PropTypes from 'prop-types'
 import utils from './../utils';
 import context from './../context';
 
@@ -11,8 +11,8 @@ import AuthenticatedRoute from './AuthenticatedRoute';
 
 export default class Router extends ReactRouter {
   static childContextTypes = {
-    authenticated: React.PropTypes.bool,
-    user: React.PropTypes.object
+    authenticated: PropTypes.bool,
+    user: PropTypes.object
   };
 
   static defaultProps = ReactRouter.defaultProps;
