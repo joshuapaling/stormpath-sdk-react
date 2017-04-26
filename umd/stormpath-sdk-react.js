@@ -12065,6 +12065,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _utils2 = _interopRequireDefault(_utils);
 
+	var _propTypes = __webpack_require__(42);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -12104,7 +12108,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  return Authenticated;
 	}(_react2.default.Component), _class.contextTypes = {
-	  user: _react2.default.PropTypes.object
+	  user: _propTypes2.default.object
 	}, _temp);
 	exports.default = Authenticated;
 
@@ -12130,6 +12134,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	var _utils = __webpack_require__(8);
 
 	var _utils2 = _interopRequireDefault(_utils);
+
+	var _propTypes = __webpack_require__(42);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12174,7 +12182,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  return NotAuthenticated;
 	}(_react2.default.Component), _class.contextTypes = {
-	  user: _react2.default.PropTypes.object
+	  user: _propTypes2.default.object
 	}, _temp);
 	exports.default = NotAuthenticated;
 
@@ -12266,6 +12274,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _react2 = _interopRequireDefault(_react);
 
+	var _propTypes = __webpack_require__(42);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _utils = __webpack_require__(8);
 
 	var _utils2 = _interopRequireDefault(_utils);
@@ -12347,7 +12359,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  return LogoutLink;
 	}(_react2.default.Component), _class.contextTypes = {
-	  router: _react2.default.PropTypes.object.isRequired
+	  router: _propTypes2.default.object.isRequired
 	}, _temp2);
 	exports.default = LogoutLink;
 
@@ -12373,6 +12385,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	var _react2 = _interopRequireDefault(_react);
 
 	var _reactRouter = __webpack_require__(39);
+
+	var _propTypes = __webpack_require__(42);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
 
 	var _utils = __webpack_require__(8);
 
@@ -12763,7 +12779,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  return LoginForm;
 	}(_react2.default.Component), _class2.contextTypes = {
-	  router: _react2.default.PropTypes.object.isRequired
+	  router: _propTypes2.default.object.isRequired
 	}, _temp3);
 	exports.default = LoginForm;
 
@@ -13122,6 +13138,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _reactRouter = __webpack_require__(39);
 
+	var _propTypes = __webpack_require__(42);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _utils = __webpack_require__(8);
 
 	var _utils2 = _interopRequireDefault(_utils);
@@ -13462,7 +13482,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  return UserProfileForm;
 	}(_react2.default.Component), _class2.contextTypes = {
-	  user: _react2.default.PropTypes.object
+	  user: _propTypes2.default.object
 	}, _temp3);
 	exports.default = UserProfileForm;
 
@@ -13488,6 +13508,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	var _react2 = _interopRequireDefault(_react);
 
 	var _reactRouter = __webpack_require__(39);
+
+	var _propTypes = __webpack_require__(42);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
 
 	var _utils = __webpack_require__(8);
 
@@ -13985,7 +14009,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  return RegistrationForm;
 	}(_react2.default.Component), _class2.contextTypes = {
-	  router: _react2.default.PropTypes.object.isRequired
+	  router: _propTypes2.default.object.isRequired
 	}, _temp3);
 	exports.default = RegistrationForm;
 

@@ -12056,6 +12056,10 @@ module.exports =
 
 	var _utils2 = _interopRequireDefault(_utils);
 
+	var _propTypes = __webpack_require__(42);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -12095,7 +12099,7 @@ module.exports =
 
 	  return Authenticated;
 	}(_react2.default.Component), _class.contextTypes = {
-	  user: _react2.default.PropTypes.object
+	  user: _propTypes2.default.object
 	}, _temp);
 	exports.default = Authenticated;
 
@@ -12121,6 +12125,10 @@ module.exports =
 	var _utils = __webpack_require__(8);
 
 	var _utils2 = _interopRequireDefault(_utils);
+
+	var _propTypes = __webpack_require__(42);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12165,7 +12173,7 @@ module.exports =
 
 	  return NotAuthenticated;
 	}(_react2.default.Component), _class.contextTypes = {
-	  user: _react2.default.PropTypes.object
+	  user: _propTypes2.default.object
 	}, _temp);
 	exports.default = NotAuthenticated;
 
@@ -12257,6 +12265,10 @@ module.exports =
 
 	var _react2 = _interopRequireDefault(_react);
 
+	var _propTypes = __webpack_require__(42);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _utils = __webpack_require__(8);
 
 	var _utils2 = _interopRequireDefault(_utils);
@@ -12338,7 +12350,7 @@ module.exports =
 
 	  return LogoutLink;
 	}(_react2.default.Component), _class.contextTypes = {
-	  router: _react2.default.PropTypes.object.isRequired
+	  router: _propTypes2.default.object.isRequired
 	}, _temp2);
 	exports.default = LogoutLink;
 
@@ -12364,6 +12376,10 @@ module.exports =
 	var _react2 = _interopRequireDefault(_react);
 
 	var _reactRouter = __webpack_require__(39);
+
+	var _propTypes = __webpack_require__(42);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
 
 	var _utils = __webpack_require__(8);
 
@@ -12754,7 +12770,7 @@ module.exports =
 
 	  return LoginForm;
 	}(_react2.default.Component), _class2.contextTypes = {
-	  router: _react2.default.PropTypes.object.isRequired
+	  router: _propTypes2.default.object.isRequired
 	}, _temp3);
 	exports.default = LoginForm;
 
@@ -13113,6 +13129,10 @@ module.exports =
 
 	var _reactRouter = __webpack_require__(39);
 
+	var _propTypes = __webpack_require__(42);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _utils = __webpack_require__(8);
 
 	var _utils2 = _interopRequireDefault(_utils);
@@ -13453,7 +13473,7 @@ module.exports =
 
 	  return UserProfileForm;
 	}(_react2.default.Component), _class2.contextTypes = {
-	  user: _react2.default.PropTypes.object
+	  user: _propTypes2.default.object
 	}, _temp3);
 	exports.default = UserProfileForm;
 
@@ -13479,6 +13499,10 @@ module.exports =
 	var _react2 = _interopRequireDefault(_react);
 
 	var _reactRouter = __webpack_require__(39);
+
+	var _propTypes = __webpack_require__(42);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
 
 	var _utils = __webpack_require__(8);
 
@@ -13976,7 +14000,7 @@ module.exports =
 
 	  return RegistrationForm;
 	}(_react2.default.Component), _class2.contextTypes = {
-	  router: _react2.default.PropTypes.object.isRequired
+	  router: _propTypes2.default.object.isRequired
 	}, _temp3);
 	exports.default = RegistrationForm;
 
