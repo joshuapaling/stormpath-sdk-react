@@ -4980,6 +4980,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _reactRouter = __webpack_require__(39);
 
+	var _propTypes = __webpack_require__(42);
+
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+
 	var _utils = __webpack_require__(8);
 
 	var _utils2 = _interopRequireDefault(_utils);
@@ -5140,8 +5144,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  return Router;
 	}(_reactRouter.Router), _class.childContextTypes = {
-	  authenticated: _react2.default.PropTypes.bool,
-	  user: _react2.default.PropTypes.object
+	  authenticated: _propTypes2.default.bool,
+	  user: _propTypes2.default.object
 	}, _class.defaultProps = _reactRouter.Router.defaultProps, _temp);
 	exports.default = Router;
 
