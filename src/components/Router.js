@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import { Router as ReactRouter } from 'react-router';
+import { BrowserRouter as ReactRouter } from 'react-router-dom';
 
 import utils from './../utils';
 import context from './../context';
