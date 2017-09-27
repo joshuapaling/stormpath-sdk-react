@@ -1,9 +1,10 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 import utils from '../utils';
 
 export default class NotAuthenticated extends React.Component {
   static contextTypes = {
-    user: React.PropTypes.object
+    user: PropTypes.object
   };
 
   render() {

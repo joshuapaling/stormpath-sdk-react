@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 import { Link } from 'react-router';
 
@@ -143,7 +144,7 @@ class DefaultLoginForm extends React.Component {
 
 export default class LoginForm extends React.Component {
   static contextTypes = {
-    router: React.PropTypes.object.isRequired
+    router: PropTypes.object.isRequired
   };
 
   state = {
